@@ -1,7 +1,7 @@
 export interface User {
-	name: string;
+	name: string
 }
 
 export function useUsers(): User[] {
-	return [{ name: "Javi" }, { name: "Isma" }];
+	return [{ name: "Javi" }, { name: "Isma" }]
 }

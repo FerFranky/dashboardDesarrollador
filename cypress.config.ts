@@ -1,4 +1,4 @@
-import { defineConfig } from "cypress";
+import { defineConfig } from "cypress"
 
 export default defineConfig({
 	video: false,
@@ -11,4 +11,4 @@ export default defineConfig({
 		viewportHeight: 1080,
 		supportFile: "tests/e2e/support/e2e.ts",
 	},
-});
+})
